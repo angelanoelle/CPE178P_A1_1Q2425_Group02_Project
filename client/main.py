@@ -105,7 +105,7 @@ def main(page: ft.Page):
                     
                     resnet_result = (
                         f"ResNet50 Prediction:\n"
-                        f"{data.get('class')}\n"
+                        f"{data.get('class_rn')}\n"
                         f"Score: {data.get('output_rn')}%"
                     )
                     
